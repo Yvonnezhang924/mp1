@@ -4,10 +4,242 @@
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
+        <title>Yiwen's website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
-    <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="custom-navbar" id="mainNav">
+            <div class="nav-container">
+                <a class="nav-brand" href="#page-top">Yiwen Zhang</a>
+                <button class="nav-toggler" type="button" id="navToggle" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <span class="hamburger-icon">☰</span>
+                </button>
+                <div class="nav-collapse" id="navbarResponsive">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a class="nav-link" href="#background">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section" id="page-top">
+            <div class="hero-content">
+                <div class="avatar-container">
+                    <img src="assets/image.jpg" alt="Profile Picture" class="avatar">
+                </div>
+                <h1 class="hero-title">Hey there! I'm Yiwen. <i class="fa-solid fa-face-smile" style="color: #e8e0ff;"></i></h1>
+                <div class="hero-text-columns">
+                    <div class="hero-text-column">
+                        <h3 class="column-title">Tech Enthusiast</h3>
+                        <p class="column-description">Have experience in web development and backend development</p>
+                    </div>
+                    <div class="hero-text-column">
+                        <h3 class="column-title">Life Explorer</h3>
+                        <p class="column-description">Love to explore new things and experiences</p>
+                    </div>
+                    <div class="hero-text-column">
+                        <h3 class="column-title">Fitness Lover</h3>
+                        <p class="column-description">A big fan of fitness, running, skiing and tennis</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Background Image Section -->
+        <section class="background-image-section" id="background">
+            <div class="background-overlay">
+                <div class="background-content">
+                    <h2 class="background-title">Life is real🥰</h2>
+                    <p class="background-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="carousel-container">
+                    <button class="carousel-arrow carousel-arrow-left" id="prevBtn">‹</button>
+                    <div class="carousel-wrapper">
+                        <div class="carousel-slides" id="carouselSlides">
+                            <div class="carousel-slide active">
+                                <div class="slide-content">
+                                    <div class="slide-icon">🎓</div>
+                                    <div class="slide-text">
+                                        <h3 class="slide-title">Currently pursuing my master degree in Information Sciences at UIUC</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="slide-content">
+                                    <div class="slide-icon">👩‍💻🍌</div>
+                                    <div class="slide-text">
+                                        <h3 class="slide-title">SDE Intern@AWS Lambda</h3>
+                                        <h3 class="slide-title">Ex-Research Intern@BOA</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-slide">
+                                <div class="slide-content">
+                                    <div class="slide-icon">🔅</div>
+                                    <div class="slide-text">
+                                        <h3 class="slide-title">Always learning in the field of software development</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-arrow carousel-arrow-right" id="nextBtn">›</button>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="hobbies-section" id="hobbies">
+            <div class="container">
+                <h2 class="section-title">Hobbies</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card" data-hobby="1">
+                        <div class="hobby-icon">🏃‍♀️</div>
+                        <h3 class="hobby-title">Running</h3>
+                        <p class="hobby-description">Running is my therapy</p>
+                        <button class="hobby-btn">Learn More</button>
+                    </div>
+                    <div class="hobby-card" data-hobby="2">
+                        <div class="hobby-icon">⛷️</div>
+                        <h3 class="hobby-title">Skiing</h3>
+                        <p class="hobby-description">I start skiing in 2024</p>
+                        <button class="hobby-btn">Learn More</button>
+                    </div>
+                    <div class="hobby-card" data-hobby="3">
+                        <div class="hobby-icon">⛰️</div>
+                        <h3 class="hobby-title">Hiking</h3>
+                        <p class="hobby-description">Exploring nature trails</p>
+                        <button class="hobby-btn">Learn More</button>
+                    </div>
+                    <div class="hobby-card" data-hobby="4">
+                        <div class="hobby-icon">🍽️</div>
+                        <h3 class="hobby-title">Food</h3>
+                        <p class="hobby-description">Enjoy delicious food</p>
+                        <button class="hobby-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobby Modals -->
+        <div class="modal" id="hobbyModal1">
+
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-header">
+                    <div class="modal-icon">🏃‍♀️</div>
+                    <h2>Running</h2>
+                    <p class="modal-subtitle">My therapy</p>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <div class="modal-images">
+                            <img src="assets/img_run1.jpeg" alt="Running Photo 1" class="section-image">
+                            <img src="assets/img_run2.jpeg" alt="Running Photo 1" class="section-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="hobbyModal2">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-header">
+                    <div class="modal-icon">⛷️</div>
+                    <h2>Ski</h2>
+                    <p class="modal-subtitle">First year skiing</p>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <div class="modal-video">
+                            <video controls class="section-video">
+                                <source src="assets/skiing_video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="hobbyModal3">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-header">
+                    <div class="modal-icon">⛰️</div>
+                    <h2>Hiking</h2>
+                    <p class="modal-subtitle">Nature trails</p>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <div class="modal-images">
+                            <img src="assets/img_hike1.JPG" alt="Hiking Photo 1" class="section-image">
+                            <img src="assets/img_hike2.jpeg" alt="Hiking Photo 2" class="section-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="hobbyModal4">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-header">
+                    <div class="modal-icon">🍽️</div>
+                    <h2>Food</h2>
+                    <p class="modal-subtitle">Delicious food</p>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <div class="modal-images">
+                            <img src="assets/img_food1.jpeg" alt="Food Photo 1" class="section-image">
+                            <img src="assets/img_food2.JPG" alt="Food Photo 2" class="section-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="footer-section">
+            <div class="footer-content">
+                <div class="footer-info">
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yiwenillinois/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Yvonnezhang924" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:yiwenzhang924@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Yiwen. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
     </body>
 </html>
+
