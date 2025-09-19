@@ -1,2 +1,29 @@
 example_chatgpt_log_link1
 example_bing_chat_log_link2
+
+Okay great! And for the first page of the website, can I have a multi-column layout that show the audience who I am, what I did, and my goals in the future. Can u help me write code in index.html? Thanks a lot!
+
+Can u show all the pages instead of clicking the button on the top on the navigation bar? I hope there is an indicator of the current reading position visible in the navigation bar (see above gif for example). Make sure your implementation highlights the last menu item when you scroll to the bottom of the page.
+
+Can u change the whole theme to pink style?  LIke the light hot pink FFB3DE
+
+all pink is too ugly, change to pink, yellow and blue
+
+For each hero-text-column, delete the description and center the column title. Don't set the text style to be capital
+
+For the portfolio section, change it to carousel: A section with a carousel/slider using a minimum of three slides. It should include the navigation arrows on the side. 
+
+In the about section, change it to a section which uses modal windows with additional content. Show two of my projects, and when click it, it shows the detail of each project
+
+Adjustments:
+1. Add hobbyModal3
+2. Change hobbyModal2 to skiing topic
+3. Reformat the picture in modal window, central them
+
+For the navigation bar, here are some requirements
+1. A top navigation bar that sticks to the top of the window when scrolling
+2. Indicator of the current reading position visible in the navigation bar (see above gif for example). Make sure your implementation highlights the last menu item when you scroll to the bottom of the page. ( Implementation Tip : To figure out which menu item to highlight, you’ll have to figure out which section lies directly below the bottom margin of the navigation bar. You can use methods that give you the height and position of different divs to figure that out. You will want to recompute this whenever there is a scroll event.)
+3. Navbar Resizing: Navigation bar must be larger when users are at the top of the page. As users start scrolling down, it should resize and become smaller. Note that the text font size should also start larger and become smaller as users scroll down
+4. Smooth Scrolling: Smooth scrolling when navigating to a different section using the navigation bar - 
+
+harperrr@MacBook-Air-223 mp1 % git push origin main To github.com:Yvonnezhang924/mp1.git ! [rejected] main -> main (non-fast-forward) error: failed to push some refs to 'github.com:Yvonnezhang924/mp1.git' hint: Updates were rejected because a pushed branch tip is behind its remote hint: counterpart. Check out this branch and integrate the remote changes hint: (e.g. 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.
